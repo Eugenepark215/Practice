@@ -4,12 +4,20 @@ function solution(inputArray) {
   for (let i = 0; i < inputArray.length; i++) {
     if (inputArray[i].length >= longest) {
       longest = inputArray[i].length;
-      if (inputArray[i].length === longest) {
-        newArray.push(inputArray[i]);
+    }
+    if (inputArray[i].length === longest) {
+      newArray.push(inputArray[i]);
+    }
+    for (let j = 0; j < newArray.length; j++) {
+      if (newArray[j].length !== longest) {
+        newArray.splice(j, 1);
       }
     }
   }
   return newArray;
 }
-const input = ['aba', 'aa', 'ad', 'vcd', 'aba'];
+const input = ['abc',
+  'eeee',
+  'abcd',
+  'dcd'];
 solution(input);
