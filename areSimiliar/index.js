@@ -1,11 +1,18 @@
 function solution(a, b) {
-  a.sort(function (a, b) {
-    return a - b;
-  });
-  b.sort(function (a, b) {
-    return a - b;
-  });
   if (a.toString() === b.toString()) {
+    return true;
+  }
+  let array1 = [];
+  let array2 = [];
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] !== b[i]) {
+      array1.push(a[i]);
+      array2.push(b[i]);
+    }
+  }
+  array2 = array2.reverse().toString();
+  array1 = array1.toString();
+  if (array1 === array2) {
     return true;
   } else {
     return false;
