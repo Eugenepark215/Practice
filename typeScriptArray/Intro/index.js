@@ -9,3 +9,9 @@ function checkCustomersArray(array) {
   }
 }
 checkCustomersArray(customersArray);
+
+// function stringPush(val) {
+//   if (typeof val === 'string') {
+//     customersArray.push(val);
+//   }
+// }
