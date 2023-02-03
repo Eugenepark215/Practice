@@ -8,3 +8,5 @@ function addPower(p: number, ...numsToAdd: number[]): number {
 }
 
 export { };
+//Argument of type 'string' is not assignable to parameter of type 'number'.
+// addPower('a string', 4, 5, 6);

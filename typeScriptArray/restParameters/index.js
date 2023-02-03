@@ -12,3 +12,5 @@ function addPower(p) {
   }
   return answer;
 }
+// Argument of type 'string' is not assignable to parameter of type 'number'.
+// addPower('a string', 4, 5, 6);
