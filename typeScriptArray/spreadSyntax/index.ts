@@ -8,7 +8,7 @@ function performDanceMove(moveName: string, moveReps: number, hasFlair: boolean)
   }
 }
 // eslint-disable-next-line no-unused-vars
-let danceMoves = [
+let danceMoves: [string, number, boolean][] = [
   ['chicken beak', 4, false],
   ['wing flap', 4, false],
   ['tail feather shake', 4, false],
