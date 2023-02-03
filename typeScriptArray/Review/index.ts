@@ -9,3 +9,5 @@ let monster: [string[], string[], string[][], string[][], string[][][][], string
   [[3]]
 
 ];
+
+export { };
