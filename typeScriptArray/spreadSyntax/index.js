@@ -20,3 +20,7 @@ var danceMoves = [
   ['tail feather shake', 4, true],
   ['clap', 4, true]
 ];
+for (var i = 0; i < danceMoves.length; i++) {
+  // eslint-disable-next-line no-void
+  performDanceMove.apply(void 0, danceMoves[i]);
+}

@@ -19,4 +19,8 @@ let danceMoves: [string, number, boolean][] = [
   ['clap', 4, true],
 ];
 
+for (let i = 0; i < danceMoves.length; i++) {
+  performDanceMove(...danceMoves[i]);
+}
+
 export { };
