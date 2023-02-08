@@ -16,3 +16,12 @@ var Pet;
   Pet[Pet.Chinchilla = 2] = 'Chinchilla';
   Pet[Pet.Tarantula = 3] = 'Tarantula';
 })(Pet || (Pet = {}));
+// eslint-disable-next-line no-unused-vars
+var petOnSaleTS = Pet.Chinchilla;
+// eslint-disable-next-line no-unused-vars
+var ordersArrayTS = [
+  [Pet.Rat, 2],
+  [Pet.Chinchilla, 1],
+  [Pet.Hamster, 2],
+  [Pet.Chinchilla, 50]
+];
