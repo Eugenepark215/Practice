@@ -7,3 +7,12 @@ let ordersArray = [
   ['hamster', 2],
   ['chinchilla', 50]
 ];
+
+enum Pet {
+  Hamster,
+  Rat,
+  Chinchilla,
+  Tarantula
+}
+
+export { }
