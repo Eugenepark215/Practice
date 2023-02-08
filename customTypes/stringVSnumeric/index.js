@@ -9,3 +9,10 @@ var ordersArray = [
   ['hamster', 2],
   ['chinchilla', 50]
 ];
+var Pet;
+(function (Pet) {
+  Pet.Hamster = 'HAMSTER';
+  Pet.Rat = 'RAT';
+  Pet.Chinchilla = 'CHINCHILLA';
+  Pet.Tarantula = 'TARANTULA';
+})(Pet || (Pet = {}));

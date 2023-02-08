@@ -8,4 +8,10 @@ let ordersArray = [
   ['chinchilla', 50]
 ];
 
+enum Pet {
+  Hamster = 'HAMSTER',
+  Rat = 'RAT',
+  Chinchilla = 'CHINCHILLA',
+  Tarantula = 'TARANTULA'
+}
 export { }
