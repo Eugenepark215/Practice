@@ -1,7 +1,6 @@
 'use strict';
 exports.__esModule = true;
 var solutionFunction;
-// eslint-disable-next-line no-unused-vars
 solutionFunction = function solution(n, firstNumber) {
   var number = ((n / 2) + firstNumber);
   if (number > n) {
@@ -12,3 +11,4 @@ solutionFunction = function solution(n, firstNumber) {
     return number;
   }
 };
+solutionFunction(10, 2);
