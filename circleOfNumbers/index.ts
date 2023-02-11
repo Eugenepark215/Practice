@@ -1,5 +1,8 @@
+type solutionType = (n: number, firstNumber: number) => number;
+
+let solutionFunction: solutionType;
 // eslint-disable-next-line no-unused-vars
-function solution(n, firstNumber) {
+solutionFunction = function solution(n, firstNumber) {
   const number = ((n / 2) + firstNumber);
   if (number > n) {
     return number - n;
